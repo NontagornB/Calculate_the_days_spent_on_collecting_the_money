@@ -1,0 +1,35 @@
+﻿<Window x:Class="Calculate_the_days_spent_on_collecting_the_money.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculate_the_days_spent_on_collecting_the_money"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="700">
+    <Grid>
+        <ToolBar HorizontalAlignment="Left" Height="25" Margin="78,-98,0,0" VerticalAlignment="Top" Width="284"/>
+        <TextBox x:Name="income" HorizontalAlignment="Left" Margin="125,27,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="26" FontFamily="Arial Narrow" TextChanged="TextBox_TextChanged" FontSize="18" AllowDrop="False"/>
+        <Button x:Name="Calculate" Content="Calculate" Margin="516,122,0,0" RenderTransformOrigin="-1.467,4.925" Width="100" Click="Button_Click" FontFamily="Arial Black" FontSize="18" BorderBrush="Black" Background="#FFA7A7A7" Foreground="#FF262626" Height="35" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.124"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <TextBlock HorizontalAlignment="Left" Margin="25,27,0,0" TextWrapping="Wrap" Text="Income" VerticalAlignment="Top" Height="25" Width="82" FontFamily="Arial Narrow" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="25,78,0,0" TextWrapping="Wrap" Text="Expenses" VerticalAlignment="Top" Height="25" Width="82" FontFamily="Arial Narrow" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="25,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="46" Width="192" FontFamily="Arial Narrow" FontSize="18"><Run Text="The price of the desired item."/><LineBreak/><Run/></TextBlock>
+        <TextBox x:Name="expenses" HorizontalAlignment="Left" Margin="125,78,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="26" FontFamily="Arial Narrow" TextChanged="TextBox_TextChanged" FontSize="18" AllowDrop="False"/>
+        <TextBox x:Name="desireditem" HorizontalAlignment="Left" Margin="222,125,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="26" FontFamily="Arial Narrow" TextChanged="TextBox_TextChanged" FontSize="18" AllowDrop="False"/>
+        <TextBlock HorizontalAlignment="Left" Margin="290,27,0,0" TextWrapping="Wrap" Text="Baht/Day" VerticalAlignment="Top" Height="25" Width="82" FontFamily="Arial Narrow" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="290,78,0,0" TextWrapping="Wrap" Text="Baht/Day" VerticalAlignment="Top" Height="25" Width="82" FontFamily="Arial Narrow" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="383,125,0,0" TextWrapping="Wrap" Text="Baht" VerticalAlignment="Top" Height="25" Width="82" FontFamily="Arial Narrow" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="25,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="46" Width="250" FontFamily="Arial Narrow" FontSize="18" Text="All funds must be accumulated for"/>
+        <TextBox x:Name="accumulated" HorizontalAlignment="Left" Margin="256,210,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="26" FontFamily="Arial Narrow" TextChanged="TextBox_TextChanged" FontSize="18" AllowDrop="True" Focusable="False"/>
+        <TextBlock HorizontalAlignment="Left" Margin="424,210,0,0" TextWrapping="Wrap" Text="Day" VerticalAlignment="Top" Height="25" Width="82" FontFamily="Arial Narrow" FontSize="18"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculate_the_days_spent_on_collecting_the_money", "Calculate_the_days_spent_on_collecting_the_money\Calculate_the_days_spent_on_collecting_the_money.csproj", "{28990A82-14EE-4B72-B38A-0F24E306EE0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28990A82-14EE-4B72-B38A-0F24E306EE0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28990A82-14EE-4B72-B38A-0F24E306EE0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28990A82-14EE-4B72-B38A-0F24E306EE0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28990A82-14EE-4B72-B38A-0F24E306EE0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFFE8D36-8F5B-428B-80D7-80CAAEBF8612}
+	EndGlobalSection
+EndGlobal
